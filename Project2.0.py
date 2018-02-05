@@ -189,11 +189,7 @@ class Alice:
             self.w1 = w1
             self.w2 = w2
             self.b = b
-            
-
-        
-        
-        
+                   
     def plot_graph(self):
         plt.plot(self.costs)
         plt.title('Cost vs iterations')
@@ -205,7 +201,8 @@ class Alice:
 
     def generate_keypair(self , n_length = 512):
         self.public_key,self.private_key = paillier.generate_paillier_keypair(n_length=n_length)
-        
+
+      
 class Bob:
 
     def __init__(self,Alices_public_key, encrypted_w1 , encrypted_w2, encrypted_b):
@@ -234,10 +231,7 @@ class Bob:
         encrypted_target = self.public_key.encrypt(target)
         return z , num1 , num2 , encrypted_target
     
-    
-
-
-
+# Main function ()    
 if __name__ == "__main__":
     # Alice -> 1) will train her model 2) encrypt hperprams
     #3) bob gives z_calc 4) Bobs_training
