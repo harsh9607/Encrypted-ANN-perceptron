@@ -6,7 +6,7 @@
  $ Linearly seperable problem
  $ All rights to author
  $ Inspired by @Iamtrask and n1analytics and giant_neural_network
-
+ $ Edited now 
 '''
 
 # In[1] : Header Files
