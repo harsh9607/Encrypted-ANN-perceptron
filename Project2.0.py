@@ -15,6 +15,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import math
 import time
+import random
 from phe import paillier
 from decimal import *
 getcontext().prec = 6
@@ -220,10 +221,10 @@ class Bob:
         point = data[random_index]
     
         z = w1*point[0] + w2*point[1] + b
-        z_h_w1 = (w1+h)*point[0] + (w2)*point[1] + b
+        z_h_w1 = (w1+h)*point[0] + (w2)*point[1] + b + random.uniform(0.11,0.38)*h
         num1 = z_h_w1          
 
-        z_h_w2 = (w1)*point[0] + (w2+h)*point[1] + b
+        z_h_w2 = (w1)*point[0] + (w2+h)*point[1] + b + random.uniform(0.11,0.38)*h
         num2 = z_h_w2          
 
         
