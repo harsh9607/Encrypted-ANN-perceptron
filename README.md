@@ -20,7 +20,7 @@ https://www.youtube.com/user/LogicGodTV
 
 Data file.txt 
 
-**PYTHON SCRIPTS **
+**PYTHON SCRIPTS**
 
 Project_Iris.py
 
