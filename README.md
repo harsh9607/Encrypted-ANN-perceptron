@@ -12,7 +12,7 @@ https://github.com/n1analytics/python-paillier/blob/master/examples/logistic_reg
 3) giant_neural_network
 https://www.youtube.com/user/LogicGodTV
 
-***Whats is what ?*** 
+***What is what ?*** 
 
 **RESULTS** 
 
